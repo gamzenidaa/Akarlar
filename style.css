@@ -1,0 +1,41 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.container-fluid{
+    height: 100%;
+}
+
+.row{
+    height: 100%;
+}
+
+.sliding-screen{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.sliding-screen img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.custom-navbar {
+    background-color: #ff9900; /* İstediğiniz HEX veya RGB renk kodunu kullanabilirsiniz */
+  }
+
+.logo{
+    height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.custom-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
